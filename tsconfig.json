@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "rootDir": "./src/scripts/tsc",
+        "outDir": "./src/scripts/dist",
+
+        "target": "ES2020",
+        "module": "ESNext",
+        "lib": ["ES2020", "DOM"],
+
+        "sourceMap": true,
+
+        "strict": true,
+        "skipLibCheck": true
+    }
+}

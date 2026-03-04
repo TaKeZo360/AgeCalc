@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Age Calculator</title>
+        <link rel="stylesheet" href="./styles/styles.css" />
+    </head>
+    <body>
+        <div class="form-container">
+            <h1>Date Of Birth</h1>
+            <input type="date" id="birthDate" />
+            <button id="submitBtn" type="submit">Submit</button>
+        </div>
+
+        <div class="results">
+            <!-- AGE ON TOP -->
+            <div class="card highlight age-card">
+                <span class="value big" id="age">0y 0m 0d</span>
+                <span class="label">Age</span>
+            </div>
+
+            <div class="card">
+                <span class="value" id="years">0</span>
+                <span class="label">Years</span>
+            </div>
+
+            <div class="card">
+                <span class="value" id="months">0</span>
+                <span class="label">Months</span>
+            </div>
+
+            <div class="card">
+                <span class="value" id="days">0</span>
+                <span class="label">Days</span>
+            </div>
+
+            <div class="card">
+                <span class="value" id="hours">0</span>
+                <span class="label">Hours</span>
+            </div>
+
+            <div class="card">
+                <span class="value" id="minutes">0</span>
+                <span class="label">Minutes</span>
+            </div>
+
+            <div class="card">
+                <span class="value" id="seconds">0</span>
+                <span class="label">Seconds</span>
+            </div>
+        </div>
+        
+        <script src="./scripts/dist/script.js" type="text/javascript" charset="utf-8" defer></script>
+    </body>
+</html>
